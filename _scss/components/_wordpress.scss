@@ -1,0 +1,53 @@
+.alignright {
+    float: right;
+    margin: 0 0 15px 30px;
+    
+    @include media-breakpoint-up(2k){
+        width: 600px;
+    }
+    @include media-breakpoint-down(lg){
+        max-width: 300px;
+    }
+    @include media-breakpoint-down(sm){
+        display: block;
+        float: none;
+        margin: 1rem auto;
+        max-width: 250px;
+    }
+}
+
+.aligncenter{
+    display: block;
+    margin: 20px auto;
+    @include media-breakpoint-up(xxxl){
+        max-width: 600px;
+    }
+    @include media-breakpoint-down(lg){
+        max-width: 300px;
+    }
+    @include media-breakpoint-down(sm){
+        display: block;
+        float: none;
+        margin: 1rem auto;
+        max-width: 250px;
+    }
+}
+
+.alignleft {
+    float: left;
+    margin: 0 15px 0px 0px;
+    @include media-breakpoint-up(xxxl){
+        max-width: 600px;
+    }
+    @include media-breakpoint-down(lg){
+        max-width: 300px;
+    }
+    @include media-breakpoint-down(sm){
+        display: block;
+        float: none;
+        margin: 1rem auto;
+        max-width: 250px;
+    }
+}
+
+

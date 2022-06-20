@@ -1,0 +1,99 @@
+// .inner-section {
+
+//     .inner-banner-2 {
+//         width: 100%;
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//         background-position: center;
+//         position: relative;
+//         .overlay{
+//             position: absolute;
+//             left: 0;
+//             top: 0;
+//             right: 0;
+//             bottom: 0;
+//             background-color: rgba($color: $primary, $alpha: 0.7);
+//         }
+//         h1.title {
+//         color: $white !important;
+//         }
+
+//         &.simple h1.title {
+//             color: $body-color;
+//             position: relative;
+
+//         }
+//     }
+
+
+
+// }
+
+// .divider {
+//     background: $primary;
+//     display: block;
+//     height: 5px;
+//     width: 100%;
+//     max-width: 75px;
+// }
+
+// .single-thumbnail {
+//     float: left;
+//     margin: 0 30px 15px 0;
+//     max-width: 350px;
+//     width: 100%;
+// }
+
+// .page-id-14{
+//     .form-control {
+//         padding: 1rem;
+//         border-color: $primary;
+//         &::placeholder {
+//           color: $primary;
+//           font-size: 1.8rem;
+//           @include media-breakpoint-down(md){
+//             font-size: 1.4rem;
+//         }
+//         }
+//       }
+
+//       .btn{
+//           background-color: $primary;
+//           color: white !important;
+//       }
+// }
+
+// .page-id-12{
+//     .circle{
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         width: 450px;
+//         height: 450px;
+//         border-radius: 50%; /* the magic */
+//         background-color: $primary;
+//         color: white;
+//         margin: 0 auto 40px;
+//         transition: 0.3s ease-in-out;
+    
+//         @media screen and (max-width: 2600px) {
+//             width: 300px;
+//             height: 300px;
+//           }
+    
+//         @include media-breakpoint-down(2k){
+//             width: 250px;
+//             height: 250px;
+//         }
+//         @include media-breakpoint-down(xxl){
+//             width: 200px;
+//             height: 200px;
+//         }
+//         @include media-breakpoint-down(md){
+//             width: 150px;
+//             height: 150px;
+//         }
+//      }
+// }
+
+

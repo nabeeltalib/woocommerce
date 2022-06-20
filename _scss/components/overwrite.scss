@@ -1,0 +1,44 @@
+$grid-breakpoints: ( 
+  xxs: 0, 
+  xs: 400px, // New breakpoint added
+  sm: 576px, 
+  md: 768px, 
+  lg: 992px, 
+  xl: 1200px, 
+  xxl: 1400px,
+  xxxl: 1600px, // New breakpoint added
+  xxxxl: 1800px, // New breakpoint added
+  2k: 2048px, // New breakpoint added
+  4k: 3840px, // New breakpoint added
+  );
+
+$spacer: 1rem;
+$spacers: (
+  0: ( $spacer * 0, ),
+  1: ( $spacer * 0.5, ),
+  2: $spacer,
+  3: ( $spacer * 1.5, ),
+  4: ( $spacer * 2, ),
+  5: ( $spacer * 3, ),
+  6: ( $spacer * 5, ),
+  7: ( $spacer * 6, ),
+  8: ( $spacer * 9, ),
+  9: ( $spacer * 10, ),
+  10: ( $spacer * 15, ),
+  11: ( $spacer * 18, ),
+  12: ( $spacer * 22, ),
+  13: ( $spacer * 30, ),
+);
+
+
+$primary: #1b5471;
+$secondary:#111f2a;
+$black: #000000;
+$body-color: $secondary;
+
+$enable-rounded: false;
+$rfs-breakpoint: 1600px;
+$enable-responsive-font-sizes: true;
+$enable-negative-margins: true;
+
+$font-family-base: 'Montserrat', sans-serif;
